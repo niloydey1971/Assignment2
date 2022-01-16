@@ -36,6 +36,17 @@ main{
 .menubutton{
     border-radius: 10px;
 }
+.gameshop{
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    padding: 5px;
+    width: 800px;
+    margin-top: 100px;
+    margin-left: 400px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+}
 .menubutton:hover{
     background-color: rgb(159, 156, 161);
     padding: 5px;
@@ -190,10 +201,19 @@ footer p{
     }
     .lastsection{
         margin: 40px;
-        margin-left: 80px;
+        margin-left: 120px;
     }
     .collection{
-        margin-top: 500px;
+        margin-top: 90px;
+    }
+    .gameshop{
+        text-align: center;
+        text-decoration: none;
+        margin-left: 50px;
+        
+        margin-top: 400px;
+        display: flex; 
+        font-size: 20px;
     }
 }
 @media only screen and (min-width:688px) and (max-width:992px){
@@ -233,6 +253,12 @@ footer p{
     }
     .collection{
         margin-top: 20px;
+    }
+    .gameshop{
+        margin-left: 80px;
+        margin-top: 100px;
+        font-size: 30px;
+        text-align: center;
     }
 
 }
