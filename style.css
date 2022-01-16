@@ -158,12 +158,15 @@ footer p{
     .sec1left{
         text-align: justify;
     }
+    .sec1{
+        flex-wrap:wrap-reverse;
+        margin-top: 80px;
+        margin-left: 100px;
+        padding: auto; 
+       
+    }
     .menu{
     background-color: orange;
-    }
-   
-    .sec1{
-        flex-wrap:wrap-reverse; 
     }
     .grid-container{
         grid-template-columns: repeat(2, 350px);   
