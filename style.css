@@ -4,13 +4,16 @@ body {
   }
 main{
     overflow-x: hidden;
+    background-color: blanchedalmond;
   }
 .sec1{
     display: flex;
     justify-content: center;   
 }
 .sec1left{
-    margin-right: 130px;
+    margin-right: 150px;
+    height: 100px;
+    margin-left: 100px;
 }
 
 .grid-container{
@@ -35,6 +38,9 @@ main{
     width: 100%;
     border-radius: 5px;
     
+}
+.price{
+    font-size: 20px;
 }
 h1{
     background-color: aqua;
@@ -85,6 +91,9 @@ footer p{
     height: 30px;
     width: 100px;
 }
+.sec1right{
+    margin-right: 80px;
+}
 .sec1right:hover{
     transform: scale(1.3);
     box-shadow: none;
@@ -92,6 +101,7 @@ footer p{
     background: none;
     margin-top: 30px;
     border-radius: 50px;
+    margin-right: 100px;
 }
 .fa-star{
     font-size: 12px;
@@ -119,6 +129,23 @@ footer p{
     font-size: 3em;
     font-family: 'Times New Roman', Times, serif;
     color:rgb(218, 23, 23);
+    margin-top: 200px;
+}
+.lastsection{
+    padding: 20px;
+    width: 50%;
+    background-color: cornflowerblue;
+    margin-right: 400px;
+    margin-left: 400px;
+    border-radius: 20px;
+    text-align: center;
+} 
+.link_btn{
+    text-decoration: none;
+    color:whitesmoke;
+    background-color: rgb(24, 23, 23);
+    padding: 10px;
+    border-radius: 10px;
 }
 @media (max-width: 688px) {
     main{
@@ -148,6 +175,13 @@ footer p{
     .extra{
         margin-right: 70px;
     }
+    .lastsection{
+        margin: 40px;
+        margin-left: 80px;
+    }
+    .collection{
+        margin-top: 500px;
+    }
 }
 @media only screen and (min-width:688px) and (max-width:992px){
     main{
@@ -157,13 +191,22 @@ footer p{
     }
     .sec1left{
         text-align: justify;
+
+    }
+    .sec1right{
+        width: 33%;
+        margin-top: 200px;
+        margin-right: 100px;
+        
     }
     .sec1{
-        flex-wrap:wrap-reverse;
+        
         margin-top: 80px;
-        margin-left: 100px;
-        padding: auto; 
-       
+        margin-bottom: 200px;
+    }
+    .sec1right:hover{
+        margin-top: 200px;
+        margin-right: 100px;
     }
     .menu{
     background-color: orange;
@@ -171,6 +214,12 @@ footer p{
     .grid-container{
         grid-template-columns: repeat(2, 350px);   
     }
-    
+    .lastsection{
+        margin-top: 50px;
+        margin: 200px;
+    }
+    .collection{
+        margin-top: 20px;
+    }
 
 }
